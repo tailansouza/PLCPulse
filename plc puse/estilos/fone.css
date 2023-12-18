@@ -26,14 +26,14 @@
       text-decoration: none;
       color: aliceblue;
       padding: 5px;
-      margin: px;
+      
       
       border-radius: 5px;
        border: 1px solid rgba(255, 255, 255, 0.185); 
        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.247); 
       }
       .menu-principal{
-        margin-top: 55px;
+        margin-top: 40px;
       }
       .menu:hover{
      
