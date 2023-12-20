@@ -7,50 +7,7 @@
     padding: 0px;
     margin: 0px;
 }
-body{
-  overflow: hidden;
-}
-.cabeça{
-    background: linear-gradient(black, rgba(12, 20, 1, 0.877));
-    width: 100vw;
-    display: flex;
-   
-   
-   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.442);
-    }
-    .logo{
-      width: 30%;
-      height: 30%;
-    }
-    #bug{
-      
-      color: azure;
-      height: 25px;
-      
-    }
-    .menu{
-        font-family:'Barlow Condensed' ;
-      text-decoration: none;
-      color: aliceblue;
-      border-radius: 5px;
-       border: 1px solid rgba(255, 255, 255, 0.185); 
-       box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.247); 
-      }
-      #menuprincipal{
- 
-       
-        margin-right: 10px;
-       display:flex
 
-      }
-      
-      
-      #menuprincipal>ul{
-        list-style: none;
-        
-        
-        }
-        
       } 
       
      
