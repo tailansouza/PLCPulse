@@ -3,41 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/fone.css">
+    <script defer src="app.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
    
     <title>PLCPuse</title>
 </head>
 <body>
-    <header class="cabeça">
-       
- 
-      
-
-        
-            <menu id="menuprincipal">
-                <ul>
-                    <li><a href="#" class="menu">Sobre</a></li>
-                    <li><a href="#" class="menu">Soluções</a></li>
-                    <li><a href="#" class="menu">Contato</a></li>
-                </ul>
-            
-            
-            </menu>
-        <i id="bug" class="material-symbols-outlined" onclick="clickMenu()">menu</i> 
-        <img class="logo" src="imagens/LogoWithoutBg.png" alt="logo">
-    </header>
-    <script>
-        function clickMenu() {
-            var menuprincipal = document.getElementById('menuprincipal');
-    
-            if (menuprincipal.style.display === 'flex') {
-                menuprincipal.style.display = 'none';
-            } else {
-                menuprincipal.style.display = 'flex';
-            }
-        }
-    </script>
+   <header class="header">
+    <nav class="nav">
+       <a class="logo"href="imagens/LogoWithoutBg.png">logo</a>
+       <button class="bug"></button>
+        <ul class="nav-list">
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Soluções</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+  
+   </header>
+      <main class="corpo"></main>
 </body>
 </html>
