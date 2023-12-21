@@ -12,8 +12,9 @@ a{
   
 }
 .header{
-  background-color: blueviolet;
-  padding-inline: 10px
+
+  background: linear-gradient(rgb(14, 17, 12), rgb(24, 43, 18), rgb(37, 51, 33));
+  padding-inline: 10px;
 }
 .nav{
   max-width: 779px;
@@ -38,7 +39,7 @@ a{
   left: 0px;
   width: 100vw;
   height: 100vh;
-  background: rebeccapurple;
+  background:linear-gradient(rgb(14, 17, 12), rgb(24, 43, 18), rgb(37, 51, 33));
 
 clip-path: circle(100px at 90% -15%);
 transition: 0.5s ease-out;
