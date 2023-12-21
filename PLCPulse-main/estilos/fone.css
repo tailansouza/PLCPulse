@@ -8,7 +8,8 @@
     margin: 0px;
 }
 a{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins';
+  
 }
 .header{
   background-color: blueviolet;
@@ -23,9 +24,11 @@ a{
   justify-content: space-between;
   align-items: center;
 }
-.logo{
-  font-size: 45px;
+.logo img {
+  width: 100px;
+  height: auto; 
 }
+
 .nav-list{
   display: flex;
   gap: 30px;
@@ -82,7 +85,7 @@ transition: 0.5s ease-out;
 }
 
 .nav-list a{
-  font-size: 24px;
+  font-size: 28px;
   opacity: 0;
 
 }
