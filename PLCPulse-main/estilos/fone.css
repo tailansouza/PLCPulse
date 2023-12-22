@@ -39,10 +39,10 @@ a{
   left: 0px;
   width: 100vw;
   height: 100vh;
-  background:linear-gradient(rgb(14, 17, 12), rgb(24, 43, 18), rgb(37, 51, 33));
+  background:linear-gradient(rgb(14, 17, 12), rgb(22, 41, 17), rgb(14, 17, 12));
 
 clip-path: circle(100px at 90% -15%);
-transition: 0.5s ease-out;
+transition: 0.3s ease-out;
 
   flex-direction: column;
   justify-content: space-around;
@@ -55,13 +55,14 @@ transition: 0.5s ease-out;
   font-size: 18px;
   color: white;
   text-decoration: none;
-  padding-block: 18px;
+  padding-block: 25px;
 }
 .corpo{
   
   height: calc(100vh - 70px);
-  background-color: rgb(184, 140, 226) ;
+  background-color: rgb(178, 180, 178) ;
 }
+/*menu anburguer e animaçao */
 .bug{
   z-index: 1;
   border: none;
@@ -81,29 +82,65 @@ transition: 0.5s ease-out;
 
 }
 .nav.active .nav-list{
-  clip-path: circle(1500px at 90% -15%);
+  clip-path: circle(1500px at 90% -25%);
   pointer-events: all;
 }
 
 .nav-list a{
-  font-size: 28px;
+  font-size: 38px;
   opacity: 0;
+
+}
+.nav-list a:hover{
+  font-size:45px ;
+  color: rgb(129, 254, 177);
+  animation-duration: 0.1s;
+  
 
 }
 .nav-list li:nth-child(1) a
 {
-  transition: 0.5s 0.2s ;
+  transition: 0.4s 0.1s ;
 }
 .nav-list li:nth-child(2) a
 {
-  transition: 0.5s 0.4s ;
+  transition: 0.4s 0.2s ;
 }
 .nav-list li:nth-child(3) a
 {
-  transition: 0.5s 0.6s ;
+  transition: 0.4s 0.3s ;
 }
 .nav.active .nav-list a{
   opacity: 1;
+}
+/*atigo vantagens*/
+.vantagens{
+  padding-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+/*images*/
+.produtividade>img{
+  width: 90px;
+  height: 90px;
+}
+.custos>img{
+  width: 90px;
+  height: 90px;
+}
+.melhorias>img{
+  width: 90px;
+  height: 90px;
+}
+/*textos*/
+.vantagens h2{
+  font-size: 18px;
+  padding: 5px;
+}
+.vantagens p{
+  font-size: 13px;
 }
 
       } 
