@@ -116,12 +116,17 @@ transition: 0.3s ease-out;
 /*atigo vantagens*/
 .vantagens{
   padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   text-align: center;
   justify-content: space-between;
   
 }
 /*cesao das vantagens*/
+.fundo-vantagens{
+  background:linear-gradient(rgb(14, 17, 12), rgb(22, 41, 17), rgb(14, 17, 12));
+  height: calc(100vh at -40px);
+}
 .vantagens>section{
  
   background: rgb(103, 102, 102);
