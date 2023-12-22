@@ -132,7 +132,7 @@ transition: 0.3s ease-out;
 /*cesao das vantagens*/
 .fundo-vantagens{
   
-  background:rgb(40,40,40);
+  background:rgb(44, 44, 44);
   height: calc(100vh at -40px);
 }
 .fundo-vantagens > h1{
