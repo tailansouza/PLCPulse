@@ -123,20 +123,19 @@ transition: 0.3s ease-out;
 }
 /*cesao das vantagens*/
 .vantagens>section{
-  background: grey;
-  margin: 5px;
-  padding: 5px;
-}
-.vantagens>section:hover{
+ 
+  background: rgb(103, 102, 102);
   margin: 2px;
-  transition:  0.2s ease-in-out;
+  padding: 3px;
 }
+
   
 
 /*images*/
 .produtividade>img{
   width: 90px;
   height: 90px;
+  
   
 }
 .custos>img{
