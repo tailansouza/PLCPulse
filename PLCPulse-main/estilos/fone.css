@@ -121,10 +121,23 @@ transition: 0.3s ease-out;
   justify-content: space-between;
   
 }
+/*cesao das vantagens*/
+.vantagens>section{
+  background: grey;
+  margin: 5px;
+  padding: 5px;
+}
+.vantagens>section:hover{
+  margin: 2px;
+  transition:  0.2s ease-in-out;
+}
+  
+
 /*images*/
 .produtividade>img{
   width: 90px;
   height: 90px;
+  
 }
 .custos>img{
   width: 90px;
@@ -136,11 +149,15 @@ transition: 0.3s ease-out;
 }
 /*textos*/
 .vantagens h2{
+  font-family: 'Barlow Condensed';
   font-size: 18px;
   padding: 5px;
 }
 .vantagens p{
-  font-size: 13px;
+   font-family: 'Poppins';
+   font-size: 14px ;
+   font-style: italic;
+
 }
 
       } 
