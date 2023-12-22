@@ -13,7 +13,7 @@ a{
 }
 .header{
 
-  background: linear-gradient(rgb(14, 17, 12), rgb(24, 43, 18), rgb(37, 51, 33));
+  background: #212529;
   padding-inline: 10px;
 }
 .nav{
@@ -39,7 +39,7 @@ a{
   left: 0px;
   width: 100vw;
   height: 100vh;
-  background:linear-gradient(rgb(14, 17, 12), rgb(22, 41, 17), rgb(14, 17, 12));
+  background:#212529;
 
 clip-path: circle(100px at 90% -15%);
 transition: 0.3s ease-out;
@@ -55,7 +55,7 @@ transition: 0.3s ease-out;
   font-size: 18px;
   color: white;
   text-decoration: none;
-  padding-block: 25px;
+  padding: 55px;
 }
 .corpo{
   
@@ -70,6 +70,7 @@ transition: 0.3s ease-out;
   border-top: 3px solid white;
   cursor: pointer;
 }
+
 .bug::before,.bug::after{
   content: " ";
   display: block;
@@ -93,9 +94,11 @@ transition: 0.3s ease-out;
 }
 .nav-list a:hover{
   font-size:45px ;
-  color: rgb(129, 254, 177);
+  color:aquamarine;
   animation-duration: 0.1s;
-  
+  padding: initial;
+  box-shadow: 0px 0px 15px rgb(211, 251, 239);
+  border-radius: 5px;
 
 }
 .nav-list li:nth-child(1) a
@@ -132,6 +135,7 @@ transition: 0.3s ease-out;
   background: rgb(103, 102, 102);
   margin: 2px;
   padding: 3px;
+  border-radius: 3px;
 }
 
   
