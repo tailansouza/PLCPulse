@@ -14,8 +14,10 @@ function slider() {
   imagens.forEach((img, index) => {
     if (index === contador) {
       img.style.display = 'block';
+      
     } else {
       img.style.display = 'none';
+     
     }
   });
 
@@ -27,3 +29,6 @@ function slider() {
 }
 
 setInterval(slider, 2000);
+
+
+
