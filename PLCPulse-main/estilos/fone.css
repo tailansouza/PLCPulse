@@ -192,14 +192,14 @@ transition: 0.3s ease-out;
 /*textos de vantagens*/
 .vantagens h2{
   font-family: 'Barlow Condensed';
-  font-size: 19px;
+  font-size: 28px;
   padding: 8px;
   color: rgb(145, 217, 255);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.688);
 }
 .vantagens p{
    font-family: 'Poppins';
-   font-size: 15px ;
+   font-size: 18px ;
    padding: 5px;
    color:rgb(127, 244, 255);
 }
@@ -223,17 +223,19 @@ transition: 0.3s ease-out;
 }
 .quem-somos h1{
   font-family:'Barlow Condensed';
-  font-size: 30px;
+  font-size: 36px;
   padding: 15px;
   text-align: center;
+  text-shadow: 2px 2px 0px rgba(246, 243, 243, 0.158);
   color:white;
 }
 .quem-somos p{
   
   font-family:'Poppins' ;
-  padding: 5px;
-  font-size: 17px;
-  text-align: justify;
+  padding: 10px;
+  font-size: 18px;
+  
+  text-align: center;
   color:rgb(216, 245, 253);
 }
       
