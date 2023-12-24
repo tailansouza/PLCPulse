@@ -120,14 +120,7 @@ transition: 0.3s ease-out;
 .nav.active .nav-list a{
   opacity: 1;
 }
-/*atigo vantagens*/
-.vantagens{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-  
+
 }
 /*carosel*/
 .conteiner img{
@@ -137,8 +130,6 @@ transition: 0.3s ease-out;
   object-fit:fill;
 }
   
-  
-}
 .conteiner{
   background:  rgb(90, 93, 90);
   display: flex;
@@ -154,14 +145,20 @@ transition: 0.3s ease-out;
   .carossel{
     overflow: hidden;
     filter: drop-shadow(0px 0px 0px black);
-    
-   
-  }
+    }
 
 
 
 
-/*cesao das vantagens*/
+/*atigo vantagens*/
+.vantagens{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .fundo-vantagens{
   
   background:rgb(44, 44, 44);
@@ -175,9 +172,9 @@ transition: 0.3s ease-out;
 }
 .vantagens>section{
  
-  background: rgb(103, 102, 102);
+  background: rgb(82, 82, 82);
   margin: 2px;
-  padding: 3px;
+  padding: 9px;
   border-radius: 3px;
 }
 
@@ -187,7 +184,7 @@ transition: 0.3s ease-out;
 .produtividade>img{
   width: 90px;
   height: 90px;
-  
+
   
 }
 .custos>img{
@@ -198,17 +195,19 @@ transition: 0.3s ease-out;
   width: 90px;
   height: 90px;
 }
-/*textos*/
+/*textos de vantagens*/
 .vantagens h2{
   font-family: 'Barlow Condensed';
-  font-size: 18px;
-  padding: 5px;
+  font-size: 19px;
+  padding: 8px;
+  color: rgb(145, 217, 255);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.688);
 }
 .vantagens p{
    font-family: 'Poppins';
-   font-size: 14px ;
-   font-style: italic;
-
+   font-size: 15px ;
+   padding: 5px;
+   color:rgb(127, 244, 255);
 }
 
       
