@@ -206,7 +206,7 @@ transition: 0.3s ease-out;
 /*quem somos*/
 .fundo-somos{
   position: absolute;
- height:100vh;
+ 
  background:url(../imagens/cirquito-defoque2.jpg) no-repeat ;
  background-size:cover;
   
