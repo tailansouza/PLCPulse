@@ -66,7 +66,7 @@ transition: 0.3s ease-out;
   height: calc(100vh - 70px);
   background-color: rgb(178, 180, 178) ;
 }
-/*menu anburguer e animaçao */
+/*menu anburguer  */
 .bug{
   z-index: 1;
   border: none;
@@ -121,7 +121,7 @@ transition: 0.3s ease-out;
   opacity: 1;
 }
 
-}
+
 /*carosel*/
 .conteiner img{
 
@@ -139,16 +139,11 @@ transition: 0.3s ease-out;
   width: 100%;
   transition: 0.7s ease-in-out;
   transform: translateX(0);
-  
-  
   }
   .carossel{
     overflow: hidden;
     filter: drop-shadow(0px 0px 0px black);
-    }
-
-
-
+  }
 
 /*atigo vantagens*/
 .vantagens{
@@ -166,6 +161,7 @@ transition: 0.3s ease-out;
 }
 .fundo-vantagens > h1{
   font-family:'Barlow Condensed','Poppins' ;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.595);
   color: rgb(151, 211, 210);
   padding: 5px;
   text-align: center;
@@ -178,14 +174,10 @@ transition: 0.3s ease-out;
   border-radius: 3px;
 }
 
-  
-
-/*images*/
+  /*images*/
 .produtividade>img{
   width: 90px;
   height: 90px;
-
-  
 }
 .custos>img{
   width: 90px;

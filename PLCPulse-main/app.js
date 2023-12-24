@@ -1,3 +1,4 @@
+//menu haburguer
 const bug = document.querySelector(".bug");
 const nav = document.querySelector(".nav");
 bug.addEventListener("click",()=>
