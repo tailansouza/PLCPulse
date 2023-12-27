@@ -2,7 +2,7 @@
 /*font*/
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  @media screen and (max-width:779px){
+  @media screen and (max-width:778px){
 *{
     padding: 0px;
     margin: 0px;
@@ -159,7 +159,7 @@ transition: 0.3s ease-out;
 .fundo-vantagens{
   
   background:rgb(44, 44, 44);
-  height: calc(100vh at -40px);
+  height: calc(100vh at -10px);
 }
 .fundo-vantagens > h1{
   font-family:'Barlow Condensed','Poppins' ;
@@ -205,40 +205,55 @@ transition: 0.3s ease-out;
 }
 /*quem somos*/
 .fundo-somos{
-  position: absolute;
- 
+  position: relative;
+ height: 131vh;
  background:url(../imagens/cirquito-defoque2.jpg) no-repeat ;
  background-size:cover;
+ padding: 10px;
+ 
   
 }
-.quem-somos{
+.quem-somos {
   
   display: flex;
+  margin: 0px 5px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.796);
+  border-radius: 8px;
+  box-shadow: 0px 2px 3px black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/*.quem-somos{
+  overflow: hidden;
+  display: flex;
   flex-direction: column;
-  margin:20px 10px;
-  
+  margin:0px 5px;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.796);
   border-radius: 5px;
   box-shadow: 0px 2px 3px black ;
-}
+}*/
 .quem-somos h1{
+  
+  margin: 0px;
   font-family:'Barlow Condensed';
   font-size: 36px;
-  padding: 15px;
+  
   text-align: center;
   text-shadow: 2px 2px 0px rgba(246, 243, 243, 0.158);
   color:white;
 }
 .quem-somos p{
+ 
   
   font-family:'Poppins' ;
-  padding: 10px;
+  padding: 2px;
   font-size: 18px;
-  
   text-align: center;
   color:rgb(216, 245, 253);
 }
-      
+
       
      
      
