@@ -206,7 +206,7 @@ transition: 0.3s ease-out;
 /*quem somos*/
 .fundo-somos{
   position: relative;
- height: 131vh;
+ height: 131vh;/*auterada de 100*/
  background:url(../imagens/cirquito-defoque2.jpg) no-repeat ;
  background-size:cover;
  padding: 10px;
@@ -216,13 +216,13 @@ transition: 0.3s ease-out;
 .quem-somos {
   
   display: flex;
-  margin: 0px 5px;
+  margin: 0px 0px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.796);
   border-radius: 8px;
   box-shadow: 0px 2px 3px black;
   flex-wrap: wrap;
-  justify-content: space-around;
+  
 }
 /*.quem-somos{
   overflow: hidden;
@@ -235,20 +235,17 @@ transition: 0.3s ease-out;
   box-shadow: 0px 2px 3px black ;
 }*/
 .quem-somos h1{
-  
-  margin: 0px;
   font-family:'Barlow Condensed';
   font-size: 36px;
-  
   text-align: center;
+  margin: auto;
   text-shadow: 2px 2px 0px rgba(246, 243, 243, 0.158);
   color:white;
 }
 .quem-somos p{
  
-  
   font-family:'Poppins' ;
-  padding: 2px;
+  padding: 5px;
   font-size: 18px;
   text-align: center;
   color:rgb(216, 245, 253);
