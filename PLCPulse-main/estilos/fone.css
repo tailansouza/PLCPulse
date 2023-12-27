@@ -214,7 +214,7 @@ transition: 0.3s ease-out;
   
 }
 .quem-somos {
-  
+  overflow: hidden;/*linha auterada*/
   display: flex;
   margin: 0px 0px;
   height: 100%;
