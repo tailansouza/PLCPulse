@@ -3,11 +3,17 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   @media screen and (max-width:778px){
-*{
+*{   
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     
+}
+p{
+  font-family:'Poppins' ;
+}
+h1,h2{
+  font-family: 'Barlow Condensed';
 }
 a{
   font-family: 'Poppins';
@@ -164,7 +170,7 @@ transition: 0.3s ease-out;
   height: calc(100vh at -10px);
 }
 .fundo-vantagens > h1{
-  font-family:'Barlow Condensed','Poppins' ;
+  font-size: 3em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.595);
   color: rgb(151, 211, 210);
   padding: 5px;
@@ -200,7 +206,6 @@ transition: 0.3s ease-out;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.688);
 }
 .vantagens p{
-   font-family: 'Poppins';
    font-size: 18px ;
    padding: 5px;
    color:rgb(127, 244, 255);
@@ -229,18 +234,9 @@ transition: 0.3s ease-out;
  
   
 }
-/*.quem-somos{
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  margin:0px 5px;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.796);
-  border-radius: 5px;
-  box-shadow: 0px 2px 3px black ;
-}*/
+
 .quem-somos h1{
-  font-family:'Barlow Condensed';
+  
   font-size: 36px;
   text-align: center;
   margin: auto;
@@ -248,12 +244,49 @@ transition: 0.3s ease-out;
   color:white;
 }
 .quem-somos p{
- 
-  font-family:'Poppins' ;
   padding: 5px;
   font-size: 18px;
   text-align: center;
   color:rgb(216, 245, 253);
+}
+/*porque escolher*/
+.fundo-porque-escolher{
+  background-color: aqua;
+}
+.porque-escolher{
+  display: flex;
+  align-items: center;
+ flex-direction:column;
+ width: 100%;
+ background:rgb(44, 44, 44);
+}
+.hidden {
+  display: none;
+  
+}
+.porque-titulo{
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.595);
+  color: rgb(151, 211, 210);
+  padding: 0.5em;
+}
+.porque-escolher>button{
+  background-image: repeating-radial-gradient( circle at 21px 10px, transparent 0, #24676782 90px ), repeating-linear-gradient(#151515, #28363d);
+  border-style: none;
+  padding: 1vh;
+  width: 90%;
+ margin: 8px;
+ border-radius: 5px;
+}
+.toggle-porque>h2{
+  font-size: 2em;
+  color:white;
+}
+.toggle-porque>span>p{
+  font-size:larger;
+  color:white;
+  min-height: 100%;
 }
 
       

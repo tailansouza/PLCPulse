@@ -1,9 +1,12 @@
 //menu haburguer
+
 const bug = document.querySelector(".bug");
 const nav = document.querySelector(".nav");
 bug.addEventListener("click",()=>
 nav.classList.toggle("active"));
+
 //carossel
+
 const carrossel = document.querySelector('.carossel');
 const imagens = document.querySelectorAll('.conteiner img');
 
@@ -30,5 +33,34 @@ function slider() {
 
 setInterval(slider, 2000);
 
+//porque escolher
+
+const toggleButtons = document.querySelectorAll('.toggle-porque');
+const allSpans = document.querySelectorAll('.toggle-porque span');
+
+toggleButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        const targetId = this.getAttribute('data-target');
+        const targetElement = document.querySelector(`[data-target="${targetId}"] span`);
+
+        if (targetElement) {
+            allSpans.forEach(span => {
+                if (span !== targetElement) {
+                    span.classList.add('hidden');
+                }
+            });
+
+            // Alternando a exibição do elemento alvo (o span)
+            targetElement.classList.toggle('hidden');
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const spansToHide = document.querySelectorAll('.toggle-porque span');
+  spansToHide.forEach(span => {
+      span.classList.add('hidden');
+  });
+});
 
 
