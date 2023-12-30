@@ -208,7 +208,7 @@ transition: 0.3s ease-out;
 /*quem somos*/
 .fundo-somos{
   position: relative;
- height: 135vh;/*auterada de 100*/
+ height: 130vh;/*auterada de 100*/
  background:url(../imagens/cirquito-defoque2.jpg) no-repeat ;
  background-size:cover;
  padding: 10px;
@@ -216,7 +216,7 @@ transition: 0.3s ease-out;
   
 }
 .quem-somos {
-  max-height: 130vh;
+  min-height: 100vh;
   overflow: hidden;/*linha auterada*/
   display: flex;
   margin: 0px 0px;
