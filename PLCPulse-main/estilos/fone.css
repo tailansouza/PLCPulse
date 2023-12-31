@@ -7,23 +7,18 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
-}
+  }
 
 p{
   font-family:'Poppins' ;
 }
 h1,h2{
-  
-  font-family: 'Barlow Condensed';
+ font-family: 'Barlow Condensed';
 }
 a{
-  font-family: 'Poppins';
-  
+  font-family: 'Poppins'; 
 }
 .header{
-  
- 
   background: #212529;
   padding-inline: 10px;
 }
@@ -71,8 +66,8 @@ transition: 0.3s ease-out;
   padding: 55px;
 }
 .corpo{
-  
-  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
   background-color: rgb(178, 180, 178) ;
 }
 /*menu anburguer  */
@@ -84,7 +79,6 @@ transition: 0.3s ease-out;
   border-top: 3px solid white;
   cursor: pointer;
 }
-
 .bug::before,.bug::after{
   
   content: " ";
@@ -101,7 +95,6 @@ transition: 0.3s ease-out;
   clip-path: circle(1500px at 90% -25%);
   pointer-events: all;
 }
-
 .nav-list a{
   font-size: 38px;
   opacity: 0;
@@ -131,8 +124,6 @@ transition: 0.3s ease-out;
 .nav.active .nav-list a{
   opacity: 1;
 }
-
-
 /*carosel*/
 .conteiner img{
 
@@ -141,8 +132,7 @@ transition: 0.3s ease-out;
   object-fit:fill;
   display: none;
   
-}
-  
+}  
 .conteiner{
   background:  rgb(90, 93, 90);
   display: flex;
@@ -150,14 +140,13 @@ transition: 0.3s ease-out;
   justify-content: center;
   margin: 0px;
   width: 100%;
-  transition:ease-in-out;
-  transform: translateX(0);
-  }
-  .carossel{
+  /*transition:ease-in-out;
+  transform: translateX(0);*/
+ }
+.carossel{
     overflow: hidden;
     filter: drop-shadow(0px 0px 0px black);
-  }
-
+}
 /*atigo vantagens*/
 .vantagens{
   visibility: hidden;
@@ -188,7 +177,6 @@ transition: 0.3s ease-out;
   padding: 9px;
   border-radius: 3px;
 }
-
   /*images*/
 .produtividade>img{
   width: 90px;
@@ -221,9 +209,7 @@ transition: 0.3s ease-out;
  height: 130vh;/*auterada de 100*/
  background:url(../imagens/cirquito-defoque2.jpg) no-repeat ;
  background-size:cover;
- padding: 10px;
- 
-  
+ padding: 10px; 
 }
 .quem-somos {
   visibility: hidden;
@@ -240,7 +226,6 @@ transition: 0.3s ease-out;
  
   
 }
-
 .quem-somos h1{
   
   font-size: 36px;
@@ -268,7 +253,7 @@ background: rgb(44, 44,44);
  background:rgb(44, 44, 44);
 }
 .hidden {
-  display: none;
+  display:none;
 }
 .porque-titulo{
   text-align: center;
@@ -296,7 +281,7 @@ background: rgb(44, 44,44);
   min-height: 100%;
 }
 /*contato*/
-.fundo-contato{
+.fundo-contato{padding: 25px;
  background-color: rgb(44,44,44);
  display: flex;
  flex-direction: column;
@@ -314,13 +299,10 @@ background: rgb(44, 44,44);
   width:90%;
 }
 .contato {
- 
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-
 .contato >li>a{
   border-radius: 50px;
   margin-top: 20px;
@@ -329,8 +311,28 @@ background: rgb(44, 44,44);
   width: 100%;
   background-image:linear-gradient(rgb(0, 229, 255),rgb(149, 203, 219),rgb(207, 197, 235));
   box-shadow: 0px 3px 0px rgba(14, 16, 16, 0.433);
- 
+ }
+ footer{
+  
+  padding-top: 50px;
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ footer>img{
+  padding: 20px;
+  width: 100%;
+ }
+ footer>p{
+  padding: 20px;
+  text-align: center;
+  color: white;
+ }
+.logo-pe,.pe{
+  visibility: hidden;
 }
+
 
  
 }

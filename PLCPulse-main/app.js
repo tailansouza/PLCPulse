@@ -1,5 +1,6 @@
 //menu haburguer
 
+
 const bug = document.querySelector(".bug");
 const nav = document.querySelector(".nav");
 bug.addEventListener("click",()=>
@@ -65,6 +66,6 @@ document.addEventListener('DOMContentLoaded', function() {
 /*scroll revel*/
 
 window.sr = ScrollReveal({reset: true});
-sr.reveal('.vantagens,.quem-somos,.porque-escolher,.conteiner-ico',{
+sr.reveal('.vantagens,.quem-somos,.porque-escolher,.conteiner-ico,.logo-pe,.pe',{
   rotate :{x:0,y:25,z:0},
   duration: 800});
