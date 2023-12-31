@@ -62,5 +62,9 @@ document.addEventListener('DOMContentLoaded', function() {
       span.classList.add('hidden');
   });
 });
+/*scroll revel*/
 
-
+window.sr = ScrollReveal({reset: true});
+sr.reveal('.vantagens,.quem-somos,.porque-escolher,.conteiner-ico',{
+  rotate :{x:0,y:25,z:0},
+  duration: 800});

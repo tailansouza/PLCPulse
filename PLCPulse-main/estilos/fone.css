@@ -9,10 +9,12 @@
     box-sizing: border-box;
     
 }
+
 p{
   font-family:'Poppins' ;
 }
 h1,h2{
+  
   font-family: 'Barlow Condensed';
 }
 a{
@@ -21,7 +23,7 @@ a{
 }
 .header{
   
-  
+ 
   background: #212529;
   padding-inline: 10px;
 }
@@ -158,6 +160,7 @@ transition: 0.3s ease-out;
 
 /*atigo vantagens*/
 .vantagens{
+  visibility: hidden;
   padding-top: 10px;
   padding-bottom: 2px;
   display: flex;
@@ -171,6 +174,7 @@ transition: 0.3s ease-out;
   height: calc(100vh at -10px);
 }
 .fundo-vantagens > h1{
+  
   font-size: 3em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.595);
   color: rgb(151, 211, 210);
@@ -222,6 +226,7 @@ transition: 0.3s ease-out;
   
 }
 .quem-somos {
+  visibility: hidden;
   min-height: 100vh;
   overflow: hidden;/*linha auterada*/
   display: flex;
@@ -252,9 +257,10 @@ transition: 0.3s ease-out;
 }
 /*porque escolher*/
 .fundo-porque-escolher{
-  background-color: aqua;
+background: rgb(44, 44,44);
 }
 .porque-escolher{
+  visibility: hidden;
   display: flex;
   align-items: center;
  flex-direction:column;
@@ -304,6 +310,7 @@ transition: 0.3s ease-out;
   text-align: center;
 }
 .conteiner-ico{
+  visibility: hidden;
   width:90%;
 }
 .contato {
