@@ -256,7 +256,7 @@ transition: 0.3s ease-out;
   .porque-escolher{
     display: flex;
     align-items: center;
-   flex-direction:;
+   
    width: 100%;
    background:rgb(44, 44, 44);
   }
@@ -264,24 +264,51 @@ transition: 0.3s ease-out;
     display: none;
   }
   .porque-titulo{
+    text-align: center;
     font-size: 3em;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.595);
     color: rgb(151, 211, 210);
-    padding: 1vh;
+    padding: 0.5em;
   }
   .porque-escolher>button{
+    background-image: repeating-radial-gradient( circle at 21px 10px, transparent 0, #24676782 90px ), repeating-linear-gradient(#151515, #28363d);
+    border-style: none;
     padding: 1vh;
     width: 90%;
    margin: 8px;
    border-radius: 5px;
   }
-  .toggle-porque>span{
-    background-color: blue;
+  .toggle-porque>h2{
+    font-size: 2.5em;
+    color:white;
+    text-shadow: 0px 2px 2px black;
+  }
+  .toggle-porque>span>p{
+    font-size:larger;
+    color:white;
     min-height: 100%;
   }
-  
+  /*contato*/
+.fundo-contato{
+  background-color: rgb(44,44,44);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .fundo-contato>h1{
+   color:  rgb(151, 211, 210);
+   font-size: 3em;
+   padding: 0.5em;
+ }
+ .contato {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ .contato>li>a{
+  background-color: aqua;
+ }
         
-       
        
      
 }
