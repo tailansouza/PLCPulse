@@ -19,6 +19,7 @@ a{
   font-family: 'Poppins';
   
 }
+/*menu*/
 .header{
   
   background: #212529;
@@ -27,7 +28,8 @@ a{
 }
 
 .logo img {
-  width: 300px;
+  padding: 5px;
+  width: 80px;
   height: auto; 
   margin: auto;
 }
@@ -43,7 +45,8 @@ a{
   list-style-type: none;
   width: 100%;
   background:#212529;
-  justify-content: space-around
+  justify-content:space-around;
+  align-items: center;
   
 }
 .nav-list a{
@@ -52,5 +55,21 @@ a{
   color: white;
   text-decoration: none;
   
+}
+.fundo-carossel{
+  display: none;
+}
+/*cabeça main*/
+.cabeça-main{
+  width: 100%;
+}
+.img-pessoas{
+  width: 500px;
+}
+.img-introduçao{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 }

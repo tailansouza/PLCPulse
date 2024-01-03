@@ -147,6 +147,10 @@ transition: 0.3s ease-out;
     overflow: hidden;
     filter: drop-shadow(0px 0px 0px black);
 }
+/*cabeça-main*/
+.cabeça-main{
+  display: none;
+}
 /*atigo vantagens*/
 .vantagens{
   visibility: hidden;
