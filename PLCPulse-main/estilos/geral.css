@@ -19,9 +19,20 @@ a{
   font-family: 'Poppins';
   
 }
+body{
+  max-width: 90vw;
+  margin: auto;
+  padding: 0;
+  background: url(../imagens/placa-cirquito.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 /*menu*/
 .header{
-  
+  position: relative;
   background: #212529;
   padding-inline: 10px;
   
@@ -45,7 +56,8 @@ a{
   list-style-type: none;
   width: 100%;
   background:#212529;
-  justify-content:space-around;
+  justify-content:flex-end;
+  gap:10vw;
   align-items: center;
   
 }
@@ -62,14 +74,81 @@ a{
 /*cabeça main*/
 .cabeça-main{
   width: 100%;
+  background-color: #212529;
 }
 .img-pessoas{
-  width: 500px;
+  width: 400px;
 }
 .img-introduçao{
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
+  align-items:flex-start;
+  height: 250px;
+}
+.estamos-cabeça{
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  padding: 25px;
+}
+.estamos-cabeça>h1,p{
+  color: white;
+}
+/*atigo vantagens*/
+.vantagens{
+  visibility: hidden;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.fundo-vantagens{
+  
+  background:rgba(44, 44, 44, 0.044);
+  height: calc(100vh at -10px);
+}
+.fundo-vantagens > h1{
+  
+  font-size: 3em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.964);
+  color: rgb(151, 211, 210);
+  padding-top: 60px;
+  
+  text-align: center;
+}
+.vantagens>section{
+ 
+  background: rgb(82, 82, 82);
+  margin: 2px;
+  padding: 9px;
+  border-radius: 3px;
+}
+  /*images*/
+.produtividade>img{
+  width: 90px;
+  height: 90px;
+}
+.custos>img{
+  width: 90px;
+  height: 90px;
+}
+.melhorias>img{
+  width: 90px;
+  height: 90px;
+}
+/*textos de vantagens*/
+.vantagens h2{
+  font-family: 'Barlow Condensed';
+  font-size: 28px;
+  padding: 8px;
+  color: rgb(145, 217, 255);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.688);
+}
+.vantagens p{
+   font-size: 18px ;
+   padding: 5px;
+   color:rgb(127, 244, 255);
 }
 }
