@@ -140,8 +140,6 @@ transition: 0.3s ease-out;
   justify-content: center;
   margin: 0px;
   width: 100%;
-  /*transition:ease-in-out;
-  transform: translateX(0);*/
  }
 .carossel{
     overflow: hidden;

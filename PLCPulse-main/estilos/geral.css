@@ -21,21 +21,28 @@ a{
 }
 body{
   max-width: 90vw;
+  overflow-x: hidden;
   margin: auto;
-  padding: 0;
-  background: url(../imagens/placa-cirquito.jpg);
-  height: 100%;
-  background-size: cover;
+ 
+}
+.corpo{
+  
+  background-image: url(../imagens/robo-fundo.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
 /*menu*/
 .header{
-  position: relative;
+  z-index: 10;
+  top: 0;
+  position: fixed;
   background: #212529;
   padding-inline: 10px;
-  
+  width: 90vw;
+  overflow-x: hidden;
 }
 
 .logo img {
@@ -49,32 +56,45 @@ body{
 }
 .nav{
   display: flex;
-  
+  justify-content: flex-end;
+  align-items: center;
 }
 .nav-list{
   display: flex; 
   list-style-type: none;
-  width: 100%;
+  width: 90vw;
   background:#212529;
-  justify-content:flex-end;
   gap:10vw;
-  align-items: center;
-  
+ justify-content: flex-end;
+  margin: 0%;
+  padding-right: 10px;
+  overflow: hidden;
 }
 .nav-list a{
   
   font-size: 18px;
   color: white;
   text-decoration: none;
-  
+  padding: 15px;
 }
+.nav-list a:hover{
+  font-size:19px ;
+  color:rgb(172, 228, 236);
+  background-color: rgb(25, 45, 45);
+  transition: 0.5s;
+  padding: 8px;
+  box-shadow: 0px 1px 10px rgb(211, 251, 239);
+  border-radius: 3px;
+}
+/*carosel mobile*/
 .fundo-carossel{
   display: none;
 }
 /*cabeça main*/
 .cabeça-main{
+  padding-top: 10vh;
   width: 100%;
-  background-color: #212529;
+  background-image: linear-gradient(#212529 25%,#212529 ,#21252901 90%);
 }
 .img-pessoas{
   width: 400px;
@@ -106,8 +126,8 @@ body{
 }
 .fundo-vantagens{
   
-  background:rgba(44, 44, 44, 0.044);
-  height: calc(100vh at -10px);
+  background:rgba(44, 44, 44, 0);
+  height:max-content;
 }
 .fundo-vantagens > h1{
   
