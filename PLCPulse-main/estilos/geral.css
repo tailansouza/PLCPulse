@@ -221,4 +221,55 @@ body{
   text-align: center;
   color:rgb(216, 245, 253);
 }
+/*porque escolher*/
+.fundo-porque-escolher{
+  background: rgb(44, 44,44);
+  }
+  .porque-escolher{
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+   flex-direction:column;
+   width: 90%;
+   margin: auto;
+   background:rgb(44, 44, 44);
+  }
+  
+  .porque-titulo{
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.595);
+    color: rgb(151, 211, 210);
+    padding: 0.5em;
+  }
+  .porque-alinha{
+    display: flex;
+  }
+  .porque-escolher>.porque-alinha>button{
+    background: radial-gradient(circle, rgb(246, 246, 246) 0%, rgba(92,151,255,1) 0%, rgba(83,227,255,1) 100%);
+    border-style: none;
+    padding: 1vh;
+    width: 90%;
+   margin: 8px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+  }
+  .toggle-porque>h2{
+    margin:0px auto;
+    
+    font-size: 2.5em;
+    color:white;
+    text-shadow: 0px 2px 2px black;
+  }
+  .toggle-porque>span>p {
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(1, 1, 1);
+    min-height: 100%;
+    font-weight: 900;
+  }
+  /*contato*/
+ 
 }

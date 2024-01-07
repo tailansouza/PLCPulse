@@ -260,17 +260,26 @@ background: rgb(44, 44,44);
 .porque-titulo{
   text-align: center;
   font-size: 3em;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.595);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.714);
   color: rgb(151, 211, 210);
   padding: 0.5em;
 }
-.porque-escolher>button{
-  background-image: repeating-radial-gradient( circle at 21px 10px, transparent 0, #24676782 90px ), repeating-linear-gradient(#151515, #28363d);
+.porque-escolher>.porque-alinha>button{
+  background: rgb(246,246,246);
+background: radial-gradient(circle, rgba(246,246,246,1) 0%, rgba(92,151,255,1) 0%, rgba(83,227,255,1) 100%);
   border-style: none;
   padding: 1vh;
   width: 90%;
- margin: 8px;
+ margin-top: 10px;
  border-radius: 5px;
+
+}
+.porque-alinha{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .toggle-porque>h2{
   font-size: 2.5em;
