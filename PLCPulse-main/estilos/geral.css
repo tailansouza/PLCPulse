@@ -73,7 +73,7 @@ body{
   overflow: hidden;
 }
 .nav-list a{
-  
+  text-transform: none;
   font-size: 18px;
   color: white;
   text-decoration: none;
@@ -87,6 +87,7 @@ body{
   padding: 8px;
   box-shadow: 0px 1px 10px rgb(211, 251, 239);
   border-radius: 3px;
+  
 }
 /*carosel mobile*/
 .fundo-carossel{
@@ -321,8 +322,8 @@ body{
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(92,151,255,1) 92%, rgba(83,227,255,1) 98%);
 }
 .contato a:hover{
-  transition: 0.6s;
-  font-size: 35px;
+  transition: 0.3s;
+  font-size: 32px;
 }
 footer{
   
