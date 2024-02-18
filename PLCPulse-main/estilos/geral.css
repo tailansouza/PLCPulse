@@ -232,7 +232,7 @@ body{
     align-items: center;
    flex-direction:column;
    width: 90%;
-   margin: auto;
+   margin:auto;
    background:rgb(44, 44, 44);
   }
   
@@ -245,6 +245,7 @@ body{
   }
   .porque-alinha{
     display: flex;
+    margin: 50px auto;
   }
   .porque-escolher>.porque-alinha>button{
     background: radial-gradient(circle, rgb(246, 246, 246) 0%, rgba(92,151,255,1) 0%, rgba(83,227,255,1) 100%);
@@ -288,8 +289,9 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
  }
- .contato li{
+ .contato li{transition: 0.5s;
   border: 1px solid rgb(252, 255, 212);
   border-radius: 5px;
   align-items: center;
@@ -318,12 +320,12 @@ body{
  
   }
   .contato li:hover{
-   
+   scale:1.05;
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(92,151,255,1) 92%, rgba(83,227,255,1) 98%);
 }
 .contato a:hover{
   transition: 0.3s;
-  font-size: 32px;
+  
 }
 footer{
   
